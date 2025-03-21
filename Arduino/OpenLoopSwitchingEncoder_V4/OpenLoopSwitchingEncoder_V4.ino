@@ -1,6 +1,5 @@
 #include <avr/io.h>
 #include <avr/interrupt.h>
-#include <Arduino.h>
 #include <Wire.h>
 
 #define PIN_D2 2

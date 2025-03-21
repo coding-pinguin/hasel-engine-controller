@@ -34,70 +34,9 @@ double freq = 1000/(float(interval_ms)*6); //overall frequency of motor (=f_M)
 unsigned int valueEncoder; //Raw value of encoder sensor
 double angleEncoder; //angle converted from raw sensor data
 
-void setTimerInterval(uint32_t desiredInterval_ms);
+//void setTimerInterval(uint32_t desiredInterval_ms);
 void updateOutputs(uint8_t state);
-void debugOutput(uint8_t state);
-
-void setup() {
-  pinMode(PIN_D2, OUTPUT);
-  pinMode(PIN_D3, OUTPUT);
-  pinMode(PIN_D4, OUTPUT);
-  pinMode(PIN_D5, OUTPUT);
-  pinMode(PIN_D6, OUTPUT);
-  pinMode(PIN_D7, OUTPUT);
-
-  Serial.begin(9600);
-  updateOutputs(currentStates[currentStateIndex]);
-  setTimerInterval(interval_ms);
-}
-
-void loop() {
-  if (updateFlag) {
-    debugOutput(currentStates[currentStateIndex]);
-    updateFlag = false;
-  }
-
-  if (Serial.available() > 0) {
-    char receivedChar = Serial.read();
-    switch (receivedChar) {
-      case 'R':
-        rotationCW = true;
-        break;
-      case 'L':
-        rotationCW = false;
-        break;
-      case '1':
-        currentStates = states1; numStates = sizeof(states1) / sizeof(states1[0]);
-        break;
-      case '2':
-        currentStates = states2; numStates = sizeof(states2) / sizeof(states2[0]);
-        break;
-      case '3':
-        currentStates = states3; numStates = sizeof(states3) / sizeof(states3[0]);
-        break;
-      case '4':
-        currentStates = states4; numStates = sizeof(states4) / sizeof(states4[0]);
-        break;
-      case '5':
-        currentStates = states5; numStates = sizeof(states5) / sizeof(states5[0]);
-        break;
-      case '6':
-        currentStates = states6; numStates = sizeof(states6) / sizeof(states6[0]);
-        break;
-      case '-': //Decreases the frequency of the motor
-        if (interval_ms < 200) interval_ms += 10;
-        setTimerInterval(interval_ms);
-        Serial.print("Interval: "); Serial.print(interval_ms); Serial.println(" ms");
-        break;
-      case '+': //Increases frequency of the motor
-        if (interval_ms > 15) interval_ms -= 10;
-        setTimerInterval(interval_ms);
-        Serial.print("Interval: "); Serial.print(interval_ms); Serial.println(" ms");
-        break;
-    }
-  }
-  freq = 1000/(float(interval_ms)*6);
-}
+//void debugOutput(uint8_t state);
 
 ISR(TIMER1_COMPA_vect) {
   //Read Sensor output
@@ -160,4 +99,65 @@ void debugOutput(uint8_t state) {
   Serial.print((state & 0b000010) ? "HIGH" : "LOW");
   Serial.print(" | D8: ");
   Serial.println((state & 0b000001) ? "HIGH" : "LOW");
+}
+
+void setup() {
+  pinMode(PIN_D2, OUTPUT);
+  pinMode(PIN_D3, OUTPUT);
+  pinMode(PIN_D4, OUTPUT);
+  pinMode(PIN_D5, OUTPUT);
+  pinMode(PIN_D6, OUTPUT);
+  pinMode(PIN_D7, OUTPUT);
+
+  Serial.begin(9600);
+  updateOutputs(currentStates[currentStateIndex]);
+  setTimerInterval(interval_ms);
+}
+
+void loop() {
+  if (updateFlag) {
+    debugOutput(currentStates[currentStateIndex]);
+    updateFlag = false;
+  }
+
+  if (Serial.available() > 0) {
+    char receivedChar = Serial.read();
+    switch (receivedChar) {
+      case 'R':
+        rotationCW = true;
+        break;
+      case 'L':
+        rotationCW = false;
+        break;
+      case '1':
+        currentStates = states1; numStates = sizeof(states1) / sizeof(states1[0]);
+        break;
+      case '2':
+        currentStates = states2; numStates = sizeof(states2) / sizeof(states2[0]);
+        break;
+      case '3':
+        currentStates = states3; numStates = sizeof(states3) / sizeof(states3[0]);
+        break;
+      case '4':
+        currentStates = states4; numStates = sizeof(states4) / sizeof(states4[0]);
+        break;
+      case '5':
+        currentStates = states5; numStates = sizeof(states5) / sizeof(states5[0]);
+        break;
+      case '6':
+        currentStates = states6; numStates = sizeof(states6) / sizeof(states6[0]);
+        break;
+      case '-': //Decreases the frequency of the motor
+        if (interval_ms < 200) interval_ms += 10;
+        setTimerInterval(interval_ms);
+        Serial.print("Interval: "); Serial.print(interval_ms); Serial.println(" ms");
+        break;
+      case '+': //Increases frequency of the motor
+        if (interval_ms > 15) interval_ms -= 10;
+        setTimerInterval(interval_ms);
+        Serial.print("Interval: "); Serial.print(interval_ms); Serial.println(" ms");
+        break;
+    }
+  }
+  freq = 1000/(float(interval_ms)*6);
 }
