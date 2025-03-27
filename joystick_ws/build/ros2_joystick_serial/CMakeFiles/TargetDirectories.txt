@@ -1,9 +1,0 @@
-/home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial/CMakeFiles/uninstall.dir
-/home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial/CMakeFiles/ros2_joystick_serial_uninstall.dir
-/home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial/CMakeFiles/test.dir
-/home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial/CMakeFiles/edit_cache.dir
-/home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial/CMakeFiles/rebuild_cache.dir
-/home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial/CMakeFiles/list_install_components.dir
-/home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial/CMakeFiles/install.dir
-/home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial/CMakeFiles/install/local.dir
-/home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial/CMakeFiles/install/strip.dir

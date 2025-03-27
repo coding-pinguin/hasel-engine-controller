@@ -1,2 +1,0 @@
-[console_scripts]
-joystick_serial = ros2_joystick_serial.joystick_serial:main
