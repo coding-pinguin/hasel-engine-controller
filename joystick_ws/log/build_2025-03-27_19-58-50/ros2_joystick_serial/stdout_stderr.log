@@ -1,0 +1,33 @@
+running egg_info
+creating ../../build/ros2_joystick_serial/ros2_joystick_serial.egg-info
+writing ../../build/ros2_joystick_serial/ros2_joystick_serial.egg-info/PKG-INFO
+writing dependency_links to ../../build/ros2_joystick_serial/ros2_joystick_serial.egg-info/dependency_links.txt
+writing entry points to ../../build/ros2_joystick_serial/ros2_joystick_serial.egg-info/entry_points.txt
+writing requirements to ../../build/ros2_joystick_serial/ros2_joystick_serial.egg-info/requires.txt
+writing top-level names to ../../build/ros2_joystick_serial/ros2_joystick_serial.egg-info/top_level.txt
+writing manifest file '../../build/ros2_joystick_serial/ros2_joystick_serial.egg-info/SOURCES.txt'
+reading manifest file '../../build/ros2_joystick_serial/ros2_joystick_serial.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/ros2_joystick_serial/ros2_joystick_serial.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial/build
+creating /home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial/build/lib
+creating /home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial/build/lib/ros2_joystick_serial
+copying ros2_joystick_serial/__init__.py -> /home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial/build/lib/ros2_joystick_serial
+copying ros2_joystick_serial/joystick_serial.py -> /home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial/build/lib/ros2_joystick_serial
+running install
+running install_lib
+creating /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/lib/python3.12/site-packages/ros2_joystick_serial
+copying /home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial/build/lib/ros2_joystick_serial/__init__.py -> /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/lib/python3.12/site-packages/ros2_joystick_serial
+copying /home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial/build/lib/ros2_joystick_serial/joystick_serial.py -> /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/lib/python3.12/site-packages/ros2_joystick_serial
+byte-compiling /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/lib/python3.12/site-packages/ros2_joystick_serial/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/lib/python3.12/site-packages/ros2_joystick_serial/joystick_serial.py to joystick_serial.cpython-312.pyc
+running install_data
+copying resource/ros2_joystick_serial -> /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/share/ament_index/resource_index/packages
+copying package.xml -> /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/share/ros2_joystick_serial
+running install_egg_info
+Copying ../../build/ros2_joystick_serial/ros2_joystick_serial.egg-info to /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/lib/python3.12/site-packages/ros2_joystick_serial-0.0.0-py3.12.egg-info
+running install_scripts
+Installing joystick_serial script to /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/lib/ros2_joystick_serial
+writing list of installed files to '/home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial/install.log'

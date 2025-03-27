@@ -1,0 +1,52 @@
+[0.006s] Invoking command in '/home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/parallels/Documents/hasel-engine-controller/joystick_ws/src/ros2_joystick_serial -DCMAKE_INSTALL_PREFIX=/home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial
+[0.065s] -- The C compiler identification is GNU 13.3.0
+[0.112s] -- The CXX compiler identification is GNU 13.3.0
+[0.126s] -- Detecting C compiler ABI info
+[0.184s] -- Detecting C compiler ABI info - done
+[0.189s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.189s] -- Detecting C compile features
+[0.189s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.246s] -- Detecting CXX compiler ABI info - done
+[0.253s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.253s] -- Detecting CXX compile features
+[0.254s] -- Detecting CXX compile features - done
+[0.262s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.347s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.416s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.418s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.453s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.464s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.478s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.493s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.520s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.585s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.585s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.585s] -- Added test 'lint_cmake' to check CMake code style
+[0.585s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.587s] -- Added test 'xmllint' to check XML markup files
+[0.587s] -- Configuring done (0.6s)
+[0.589s] -- Generating done (0.0s)
+[0.590s] -- Build files have been written to: /home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial
+[0.595s] Invoked command in '/home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/parallels/Documents/hasel-engine-controller/joystick_ws/src/ros2_joystick_serial -DCMAKE_INSTALL_PREFIX=/home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial
+[0.596s] Invoking command in '/home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial -- -j2 -l2
+[0.618s] Invoked command in '/home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial -- -j2 -l2
+[0.623s] Invoking command in '/home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial
+[0.629s] -- Install configuration: ""
+[0.629s] -- Installing: /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/lib/ros2_joystick_serial/joystick_serial.py
+[0.629s] -- Installing: /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/share/ament_index/resource_index/package_run_dependencies/ros2_joystick_serial
+[0.630s] -- Installing: /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/share/ament_index/resource_index/parent_prefix_path/ros2_joystick_serial
+[0.630s] -- Installing: /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/share/ros2_joystick_serial/environment/ament_prefix_path.sh
+[0.630s] -- Installing: /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/share/ros2_joystick_serial/environment/ament_prefix_path.dsv
+[0.630s] -- Installing: /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/share/ros2_joystick_serial/environment/path.sh
+[0.630s] -- Installing: /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/share/ros2_joystick_serial/environment/path.dsv
+[0.630s] -- Installing: /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/share/ros2_joystick_serial/local_setup.bash
+[0.630s] -- Installing: /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/share/ros2_joystick_serial/local_setup.sh
+[0.630s] -- Installing: /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/share/ros2_joystick_serial/local_setup.zsh
+[0.631s] -- Installing: /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/share/ros2_joystick_serial/local_setup.dsv
+[0.631s] -- Installing: /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/share/ros2_joystick_serial/package.dsv
+[0.631s] -- Installing: /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/share/ament_index/resource_index/packages/ros2_joystick_serial
+[0.631s] -- Installing: /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/share/ros2_joystick_serial/cmake/ros2_joystick_serialConfig.cmake
+[0.631s] -- Installing: /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/share/ros2_joystick_serial/cmake/ros2_joystick_serialConfig-version.cmake
+[0.631s] -- Installing: /home/parallels/Documents/hasel-engine-controller/joystick_ws/install/ros2_joystick_serial/share/ros2_joystick_serial/package.xml
+[0.633s] Invoked command in '/home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/parallels/Documents/hasel-engine-controller/joystick_ws/build/ros2_joystick_serial
