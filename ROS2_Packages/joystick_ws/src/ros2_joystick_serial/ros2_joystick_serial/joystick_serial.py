@@ -24,9 +24,9 @@ class JoystickPublisher(Node):
         pygame.event.pump()
         axis_value = self.joystick.get_axis(0)
         
-        if axis_value < -0.5:
+        if axis_value < -0.2:
             direction = '+'
-        elif axis_value > 0.5:
+        elif axis_value > 0.2:
             direction = '-'
         else:
             direction = '0'
