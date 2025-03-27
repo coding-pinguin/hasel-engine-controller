@@ -1,0 +1,5 @@
+{
+    "configuration": "cpu=atmega2560",
+    "board": "arduino:avr:mega",
+    "sketch": "OpenLoopSwitchingEncoder_V4.5/OpenLoopSwitchingEncoder_V4.5.ino"
+}
